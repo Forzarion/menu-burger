@@ -32,7 +32,7 @@
    top: 0;
    left: 0;
    background-color: #5e5373;
-   z-index: 3;
+   z-index: 2;
 }
 .header__body {
    position: relative;
@@ -46,7 +46,7 @@
    flex: 0 0 60px;
    overflow: hidden;
    position: relative;
-   z-index: 4;
+   z-index: 3;
 }
 .header__logo img {
    max-width: 100%;
@@ -54,12 +54,10 @@
 .header__burger {
 }
 .header__menu {
-   position: relative;
-   z-index: 2;
 }
 .header__list {
    display: flex;
-   z-index: 3;
+   z-index: 2;
    position: relative;
 }
 .header__list li {
@@ -83,7 +81,7 @@
       width: 45px;
       height: 30px;
       position: relative;
-      z-index: 4;
+      z-index: 3;
       transition: all 0.3s ease 0s;
    }
    .header__burger::after,
@@ -129,7 +127,7 @@
       width: 100%;
       min-height: 150%;
       background-color: #18b5a4;
-      transition: all 0.4s ease 0s;
+      transition: all 0.3s ease 0s;
       overflow: auto;
    }
    .header__menu._active {
