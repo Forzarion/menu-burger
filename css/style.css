@@ -122,12 +122,12 @@
    .header__menu {
       padding: 80px 10px 20px;
       position: fixed;
-      top: -120%;
+      top: -150%;
       left: 0;
       width: 100%;
       min-height: 150%;
       background-color: #18b5a4;
-      transition: all 0.3s ease 0s;
+      transition: all 0.4s ease 0s;
       overflow: auto;
    }
    .header__menu._active {
