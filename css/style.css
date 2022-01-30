@@ -32,7 +32,7 @@
    top: 0;
    left: 0;
    background-color: #5e5373;
-   z-index: 2;
+   z-index: 3;
 }
 .header__body {
    position: relative;
@@ -46,7 +46,7 @@
    flex: 0 0 60px;
    overflow: hidden;
    position: relative;
-   z-index: 3;
+   z-index: 4;
 }
 .header__logo img {
    max-width: 100%;
@@ -54,10 +54,12 @@
 .header__burger {
 }
 .header__menu {
+   position: relative;
+   z-index: 2;
 }
 .header__list {
    display: flex;
-   z-index: 2;
+   z-index: 3;
    position: relative;
 }
 .header__list li {
@@ -81,7 +83,7 @@
       width: 45px;
       height: 30px;
       position: relative;
-      z-index: 3;
+      z-index: 4;
       transition: all 0.3s ease 0s;
    }
    .header__burger::after,
